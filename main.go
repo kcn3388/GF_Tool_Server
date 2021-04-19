@@ -36,7 +36,7 @@ func main(){
 		sign : make(map[string]SignInfo),
 		signMutex : new(sync.RWMutex),
 		infoMutex : new(sync.RWMutex),
-		port : 8080,
+		port : 18080,
 		timeout : 600, // 10分钟超时
 		html : make(map[string]string),
 	}
